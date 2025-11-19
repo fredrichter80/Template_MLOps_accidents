@@ -88,8 +88,8 @@ def process_data(
     # Drop columns
     df = drop_columns(df)
 
-    # # Drop lines with NaN values
-    # df = drop_lines_with_nan_values(df)
+    # Drop lines with NaN values
+    df = drop_lines_with_nan_values(df)
 
     # Split data into training and testing sets
     X_train, X_test, y_train, y_test = split_data(df)
